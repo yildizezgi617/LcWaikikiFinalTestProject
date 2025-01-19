@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="E-Commerce Test Suite">
+    <test name="E-Commerce Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.CategoryTest"/>
+            <class name="tests.ProductTest"/>
+            <class name="tests.ProductDetailsTest"/>
+            <class name="tests.CartTest"/>
+
+        </classes>
+    </test>
+</suite>

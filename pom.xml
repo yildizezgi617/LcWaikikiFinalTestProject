@@ -1,0 +1,21 @@
+<dependencies>
+    <!-- TestNG Bağımlılığı -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.10.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Selenium Bağımlılığı -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.27.0</version>
+    </dependency>
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.3.0</version> <!-- En son sürüm -->
+    </dependency>
+</dependencies>
