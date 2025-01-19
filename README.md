@@ -11,15 +11,15 @@ POM (Page Object Model): Testlerin daha sürdürülebilir ve okunabilir olması 
 ## Proje Yapısı
 Proje, şu ana başlıklardan oluşmaktadır:
 
-BaseTest: Testlerin başlatılması, yapılandırılması ve temizlenmesi için kullanılan temel sınıf. 
-Page Object Model: Web sayfalarına karşılık gelen sayfa nesnelerinin tanımlandığı sınıflar.     
-Test Sınıfları: Gerçek test senaryolarının yazıldığı sınıflar.  
+BaseTest: Testlerin başlatılması, yapılandırılması ve temizlenmesi için kullanılan temel sınıf.                                                                                                                     
+Page Object Model: Web sayfalarına karşılık gelen sayfa nesnelerinin tanımlandığı sınıflar.                                                                                                                         
+Test Sınıfları: Gerçek test senaryolarının yazıldığı sınıflar.                                                        
 
 ## Kurulum
-Java
-Maven
-IDE
-WebDriver
+Java                                                                                                                                                                                                                
+Maven                                                                                                                                                                                                               
+IDE                                                                                                                                                                                                                 
+WebDriver                                                                                                                                                                                                           
 
 ## Adım Adım Kurulum 
 Adım Adım Kurulum
@@ -120,7 +120,7 @@ public class LoginPage {
 ### Login Test Sınıfı ve BaseTest ile İlişkisi
 Projede, LoginTest sınıfı BaseTest sınıfını genişleterek (extend) temel yapılandırmayı devralır. BaseTest sınıfında, WebDriver başlatma, testlerin yapılandırılması ve sonlandırılması işlemleri merkezi bir şekilde yapılır. Bu sayede, her test sınıfında aynı kodları tekrar yazmamıza gerek kalmaz.
 
-###### baseTest Sınıfı
+### baseTest Sınıfı
 
  ```java
 package tests;
@@ -213,14 +213,36 @@ Proje sırasında yapılan testlerin sonuçlarına dair bazı ekran görüntüle
 #### Giriş Sayfası
 Aşağıdaki ekran görüntüsü, geçerli kullanıcı bilgileriyle başarılı bir şekilde giriş yapıldıktan sonraki ana sayfayı göstermektedir:
 
+![Login Page](https://github.com/yildizezgi617/LcWaikikiFinalTestProject/blob/main/LoginPage.PNG?raw=true)
+
 #### Ürün Kategorisi
 Ürün kategorilerinin doğru şekilde yüklendiği bir örnek ekran görüntüsü:
+
+![Product Page](https://github.com/yildizezgi617/LcWaikikiFinalTestProject/blob/main/ProductPage.PNG?raw=true)
 
 #### Ürün Detay Sayfası
 Ürün detay sayfasının doğru şekilde yüklendiğini gösteren bir ekran görüntüsü:
 
+![ProductDetails Page](https://github.com/yildizezgi617/LcWaikikiFinalTestProject/blob/main/ProductDetailsPage.PNG?raw=true)
+
 ### Favorilerim Sayfası
 Favorilere eklenen ürünün, favorilerim sayfasında doğru bir şekilde gözüktüğünü gösteren ekran görüntüsü:
 
+![Favorite Page](https://github.com/yildizezgi617/LcWaikikiFinalTestProject/blob/main/FavoritePage.PNG?raw=true)
 
-![Login Page](https://github.com/yildizezgi617/LcWaikikiFinalTestProject/blob/main/64.PNG?raw=true)
+
+
+### Sepetim Sayfası
+Sepet sayfasının görüntüsü, eklenen ürünleri ve toplam fiyatı doğrulamak için kullanılır:
+
+![Cart Page](https://github.com/yildizezgi617/LcWaikikiFinalTestProject/blob/main/CartPage.PNG?raw=true)
+
+
+### Katkıda Bulunma
+Bu projeye katkıda bulunmak için aşağıdaki adımları takip edebilirsiniz:
+
++ Bu depo ile ilgili bir fork oluşturun.
++ Kendi değişikliklerinizi yapın.
++ Değişikliklerinizi bir pull request ile ana depoya gönderin.
+
+Teşekkürler.
